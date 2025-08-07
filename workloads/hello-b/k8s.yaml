@@ -31,7 +31,7 @@ metadata:
   name: web
   namespace: hello-b
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: web
   ports:
